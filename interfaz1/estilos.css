@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+header, .botonesMenu, .menu2{
+    background-color: #2C2C2C;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.menu a, .menu2A a{
+    padding: 15px;
+    text-decoration: none;
+    color: #919191;
+}
+
+.activado{
+    border-bottom: 1px solid #E33977;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu2A{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cuerpo{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.contenido-banner{
+    position: relative;
+    color: whitesmoke;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+#banner{
+    margin: 20px 20px 0px 20px;
+    padding: 0 50px;
+    /* background-image:url(img/494.jpg) ; */
+    
+    height: 30vh;
+    background-size:cover;
+    background-position: center;
+    border: 0px solid rgba(151, 17, 73, 0.496);
+    border-radius: 20px;
+    width: 100%;
+}
+
+#banner2{
+    /* margin: 20px 20px;
+    padding: 0 50px; */
+    width: 50%;
+    /* height: 30vh; */
+    background-size:cover;
+    background-position: center;
+    border: 0px solid rgba(255, 255, 255, 0.496);
+    border-radius: 20px;
+}
+
+#caja2{
+    height: 20vh;
+}
+
+#caja3{
+    height: 35vh;
+}
+
+#caja4{
+    height: 35vh;
+}
+
+#caja5{
+    height: 20vh;
+}
+
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contenido-banner2{
+    margin: 20px 0px 0px 20px;
+    padding: 0 50px;
+    /* background-image: url(img/descargar.jpg); */
+    background-size: cover;
+    /* height: 20vh;
+    width: 40%; */
+    border-radius: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+}
+
+
+.contenido-banner4{
+    margin: 20px 20px;
+    padding: 0 50px;
+    border-color: ;
+    /* background: linear-gradient(70deg, rgb(87, 94, 197), rgb(86, 11, 247)); */
+    /* background-image: url(img/fondo3.jpg); */
+    background-size: cover;
+    /* height: 35vh;
+    width: 40%; */
+    border-radius: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+}
+
